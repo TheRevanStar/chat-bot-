@@ -1,0 +1,238 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "science_formula",
+      "patterns": [
+        "What is the formula for the area of a circle?",
+        "What is Ohm's law?",
+        "How do I calculate electric current?",
+        "Formula for kinetic energy",
+        "Give me the quadratic formula",
+        "What's the formula for gravitational force?",
+        "How do you calculate acceleration?"
+      ],
+      "responses": [
+        "The area of a circle: A = π * r^2",
+        "Ohm's law: I = V / R",
+        "Electric current (I) equals voltage (V) divided by resistance (R): I = V / R",
+        "Kinetic energy: E = (m * v^2) / 2",
+        "Quadratic formula: x = (-b ± sqrt(b^2 - 4ac)) / (2a)",
+        "Gravitational force: F = G * (m1 * m2) / r^2",
+        "Acceleration: a = (v2 - v1) / t"
+      ]
+    },
+    {
+      "tag": "science_model",
+      "patterns": [
+        "Which model is best for text classification?",
+        "Suggest a machine learning model",
+        "Which model is suitable for regression?",
+        "Best model for image analysis",
+        "What is a random forest?",
+        "Explain support vector machine"
+      ],
+      "responses": [
+        "For text classification, common models are Logistic Regression, Naive Bayes, or neural networks like BERT.",
+        "For regression, you can use Linear Regression, Decision Tree Regressor, or Random Forest.",
+        "For image analysis, convolutional neural networks (CNNs) such as ResNet or EfficientNet are popular choices.",
+        "A random forest is an ensemble learning method that uses multiple decision trees to improve predictive accuracy.",
+        "A support vector machine (SVM) is a supervised learning model used for classification and regression analysis."
+      ]
+    },
+    {
+      "tag": "science_explanation",
+      "patterns": [
+        "Explain Newton's second law",
+        "What is entropy?",
+        "Tell me about quantum entanglement",
+        "What is the theory of relativity?",
+        "Explain the law of conservation of energy"
+      ],
+      "responses": [
+        "Newton's second law: F = m * a, where F is force, m is mass, and a is acceleration.",
+        "Entropy is a measure of disorder in a system. The higher the entropy, the less ordered the system.",
+        "Quantum entanglement is a phenomenon where quantum states of two particles are linked, even across large distances.",
+        "The theory of relativity, developed by Einstein, describes the laws of physics in the presence of gravitational fields and at high speeds.",
+        "The law of conservation of energy states that energy cannot be created or destroyed, only transformed from one form to another."
+      ]
+    },
+    {
+      "tag": "math_help",
+      "patterns": [
+        "Help me solve a quadratic equation",
+        "What is the Pythagorean theorem?",
+        "How do I find the derivative?",
+        "Explain integration",
+        "What is Euler's formula?",
+        "What is the Lagrange problem?"
+      ],
+      "responses": [
+        "The quadratic formula is x = (-b ± sqrt(b^2 - 4ac)) / (2a).",
+        "The Pythagorean theorem: a^2 + b^2 = c^2, for right-angled triangles.",
+        "The derivative represents the rate of change of a function. For example, the derivative of x^2 is 2x.",
+        "Integration is the process of finding the area under a curve. The integral of x^n is (x^(n+1))/(n+1) + C.",
+        "Euler's formula: e^(ix) = cos(x) + i*sin(x).",
+        "The Lagrange problem refers to finding the extrema of a function subject to constraints, often solved using Lagrange multipliers."
+      ]
+    },
+    {
+      "tag": "chemistry_help",
+      "patterns": [
+        "What is the periodic table?",
+        "Explain the law of conservation of mass",
+        "What is Avogadro's number?",
+        "How do I balance a chemical equation?",
+        "What is a covalent bond?"
+      ],
+      "responses": [
+        "The periodic table organizes elements by increasing atomic number and similar chemical properties.",
+        "The law of conservation of mass states that mass is neither created nor destroyed in a chemical reaction.",
+        "Avogadro's number is 6.022 x 10^23, representing the number of atoms or molecules in one mole of a substance.",
+        "To balance a chemical equation, ensure the number of atoms for each element is the same on both sides.",
+        "A covalent bond is a chemical bond that involves the sharing of electron pairs between atoms."
+      ]
+    },
+    {
+      "tag": "astronomy_help",
+      "patterns": [
+        "Tell me about space exploration",
+        "What's happening in space",
+        "What is a black hole?",
+        "Explain the Big Bang theory",
+        "What are exoplanets?"
+      ],
+      "responses": [
+        "Space exploration involves sending robotic missions and astronauts to study celestial bodies and understand the universe.",
+        "A black hole is a region in space where gravity is so strong that not even light can escape.",
+        "The Big Bang theory explains the origin of the universe as a rapid expansion from a hot, dense state.",
+        "Exoplanets are planets that orbit stars outside our solar system."
+      ]
+    },
+    {
+      "tag": "computer_science",
+      "patterns": [
+        "What is an algorithm?",
+        "Explain recursion",
+        "What is machine learning?",
+        "Tell me about neural networks",
+        "What is a data structure?"
+      ],
+      "responses": [
+        "An algorithm is a step-by-step procedure for solving a problem or performing a task.",
+        "Recursion is a programming technique where a function calls itself to solve smaller instances of a problem.",
+        "Machine learning is a field of artificial intelligence that enables computers to learn from data and improve over time.",
+        "Neural networks are computational models inspired by the human brain, used for tasks like image and speech recognition.",
+        "A data structure is a way of organizing and storing data for efficient access and modification."
+      ]
+    },
+    {
+      "tag": "cybersecurity",
+      "patterns": [
+        "Tell me about cybersecurity",
+        "How to protect against cyber threats",
+        "Cybersecurity best practices",
+        "What is phishing?",
+        "How do I create a strong password?"
+      ],
+      "responses": [
+        "Cybersecurity involves protecting computers, networks, and data from unauthorized access, attacks, and damage.",
+        "Best practices include using strong passwords, keeping software updated, avoiding suspicious links, and using antivirus software.",
+        "Phishing is a cyber attack that tricks individuals into revealing sensitive information by pretending to be a trustworthy entity.",
+        "A strong password should be long, use a mix of letters, numbers, and symbols, and avoid common words."
+      ]
+    },
+    {
+      "tag": "space_exploration",
+      "patterns": [
+        "Tell me about space exploration",
+        "What's happening in space",
+        "Mars colonization",
+        "What is the International Space Station?",
+        "Who was the first person on the Moon?"
+      ],
+      "responses": [
+        "Space exploration involves sending robotic missions and astronauts to study celestial bodies and understand the universe.",
+        "Mars colonization is a long-term goal, and scientists are conducting research and planning potential missions.",
+        "The International Space Station (ISS) is a habitable artificial satellite in low Earth orbit.",
+        "Neil Armstrong was the first person to walk on the Moon in 1969."
+      ]
+    },
+    {
+      "tag": "emotional_intelligence",
+      "patterns": [
+        "Tell me about emotional intelligence",
+        "Why is EQ important",
+        "How to develop emotional intelligence",
+        "What are the components of emotional intelligence?"
+      ],
+      "responses": [
+        "Emotional intelligence (EQ) is the ability to understand and manage emotions, both in oneself and others.",
+        "Developing emotional intelligence involves self-awareness, empathy, effective communication, and emotional regulation.",
+        "The main components of EQ are self-awareness, self-regulation, motivation, empathy, and social skills."
+      ]
+    },
+    {
+      "tag": "research_methods",
+      "patterns": [
+        "What is the scientific method?",
+        "Explain qualitative research",
+        "What is a hypothesis?",
+        "How do you design an experiment?",
+        "What is peer review?"
+      ],
+      "responses": [
+        "The scientific method is a systematic process for investigating phenomena, acquiring new knowledge, or correcting previous knowledge.",
+        "Qualitative research focuses on understanding concepts, thoughts, or experiences through interviews, observations, and analysis of text.",
+        "A hypothesis is a testable statement or prediction about the relationship between variables.",
+        "Designing an experiment involves defining variables, creating a procedure, collecting data, and analyzing results.",
+        "Peer review is the process where experts evaluate a researcher's work before it is published."
+      ]
+    },
+    {
+      "tag": "logging_help",
+      "patterns": [
+        "How can I do logging in Python?",
+        "How to write logs?",
+        "Logging errors in Python",
+        "How to save messages to a log file?",
+        "How to log user interactions?"
+      ],
+      "responses": [
+        "For logging in Python, use the logging module. Example:\nimport logging\nlogging.basicConfig(filename='bot.log', level=logging.INFO)\nlogging.info('Your message here')",
+        "The logging module allows you to save messages to a file, print them to the console, and manage log levels.",
+        "To log user interactions, call logging.info() each time a user sends a message or receives a response."
+      ]
+    }
+  ]
+}
