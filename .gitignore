@@ -1,0 +1,12 @@
+# Игнорировать виртуальное окружение
+.venv/
+venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
